@@ -1,0 +1,78 @@
+
+#header{
+    background-color: #2D2013;
+    color: white;
+    vertical-align: center;
+    padding-top:50px;
+    
+}
+#latest-meal,#popular-ingredients,#random-meals,#random-ingredients,#browse-country,#browse-by-name{
+    background-color: #2D2013;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+#nav{
+    background-color: #23180D;
+    padding: 10px 0px;
+    
+}
+.navbar{
+    background-color: #23180D;
+    
+}
+.form-inline{
+    display: flex;
+}
+/* hr{
+    height:5px;
+} */
+
+.col-lg-6{
+    text-align: center;
+}
+.row{
+    padding-top: 30px;
+}
+
+
+#latest-meal a{
+  text-decoration: none;
+    color: #d57d1f;
+}
+#popular-ingredients a{
+  text-decoration: none;
+    color: #d57d1f;
+}
+#random-meals a{
+      text-decoration: none;
+    color: #d57d1f;
+}
+
+
+
+
+
+#browseByName a{
+    text-decoration: none;
+    color: #d57d1f;
+}
+
+#randomIngredients a{
+    text-decoration: none;
+    color: #d57d1f;
+}
+
+.flag{
+    display: flex;
+    
+}
+#footer{
+    background-color: #23180D;
+    vertical-align: auto;
+    color: aliceblue;
+}
+.aboutUs{
+    text-align: right;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+<section id="nav">
+    <div class="container">
+        <nav class="navbar navbar-light justify-content-between">
+            <a class="navbar-brand"><img src="headerimg/logo-small.png"></img></a>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </nav>
+        </div>
+    </section>
+
+<section id="header">
+    <div class="container">
+        <div class="row">
+           <div class="col-lg-3"> <img src="headerimg/meal-icon.png"></img></div>
+            <div  class="col-lg-6">
+                <h1>Welcome to TheMealDB</h1>
+                <p>Welcome to TheMealDB: An open, crowd-sourced database of Recipes from around the world.
+                    We also offer a free JSON API for anyone wanting to use it, with additional features for subscribers.</p>
+            </div>
+        <div class="col-lg-3"><img src="headerimg/meal-icon.png"></img></div>
+        <hr>
+        </div>
+     
+    </div>
+</section>
+
+
+<section id="latest-meal">
+     <div class="container">
+        <h6>Latest-Meal</h6>
+        <div id="lat-meal" class="row">
+         
+        </div>
+       
+        <hr>
+    </div>
+    
+</section>
+
+<section id="popular-ingredients">
+    <div class="container">
+    <p>Popular-Ingredients</p>
+    <div id="popularIng" class="row">
+        
+    </div>
+    <hr>
+</div>
+</section>
+    
+<section id="random-meals">
+    <div class="container">
+    <p>Random-Meals</p>
+    <div id="ran-meal" class="row">
+        
+    </div>
+    <hr>
+</div>
+</section>
+    
+<section id="random-ingredients">
+    <div class="container">
+    <p>Random Ingredients</p>
+    <div id="randomIngredients" class="row">
+        
+    </div>
+    <hr>
+</div>
+</section>
+
+
+
+
+<section id="browse-country">
+    <div class="container">
+    <p>Browse Country</p>
+    <div id="browseCountry" class="row">
+
+
+        <div class="flag">
+            <img class="" src="countries/ar.png">
+            <img class="" src="countries/ca.png">
+            <img class="" src="countries/cn.png">
+            <img class="" src="countries/dz.png">
+            <img class="" src="countries/eg.png">
+            <img class="" src="countries/es.png">
+            <img class="" src="countries/fr.png">
+            <img class="" src="countries/gb.png">
+            <img class="" src="countries/gr.png">
+            <img class="" src="countries/hr.png">
+            <img class="" src="countries/ie.png">
+            <img class="" src="countries/in.png">
+            <img class="" src="countries/it.png">
+            <img class="" src="countries/jm.png">
+            <img class="" src="countries/jp.png">
+            <img class="" src="countries/kn.png">
+        </div>
+        <div class="flag">
+            <img class="" src="countries/ma.png">
+            <img class="" src="countries/mx.png">
+            <img class="" src="countries/my.png">
+            <img class="" src="countries/nl.png">
+            <img class="" src="countries/no.png">
+            <img class="" src="countries/pl.png">
+            <img class="" src="countries/pt.png">
+            <img class="" src="countries/ru.png">
+            <img class="" src="countries/sa.png">
+            <img class="" src="countries/sk.png">
+            <img class="" src="countries/sy.png">
+            <img class="" src="countries/th.png">
+            <img class="" src="countries/tn.png">
+            <img class="" src="countries/tr.png">
+            <img class="" src="countries/us.png">
+            <img class="" src="countries/vn.png">
+        </div>
+        
+     
+    </div>
+    <hr>
+</div>
+</section>
+
+<section id="browse-by-name">
+    <div class="container">
+    <p>Browse Country</p>
+    <div id="browseByName" class="row">
+      <h4>
+          <a href="#">A </a>/
+          <a href="#">B </a>/
+          <a href="#">C </a>/
+          <a href="#">D </a>/
+          <a href="#">E </a>/
+          <a href="#">F </a>/
+          <a href="#">G </a>/
+          <a href="#">H </a>/
+          <a href="#">I </a>/
+          <a href="#">J </a>/
+          <a href="#">K </a>/
+          <a href="#">L </a>/
+          <a href="#">M </a>/
+          <a href="#">N </a>/
+          <a href="#">O </a>/
+          <a href="#">P </a>/
+          <a href="#">Q </a>/
+          <a href="#">R </a>/
+          <a href="#">S </a>/
+          <a href="#">T </a>/
+          <a href="#">U </a>/
+          <a href="#">V </a>/
+          <a href="#">W </a>/
+          <a href="#">X </a>/
+          <a href="#">Y </a>/
+          <a href="#">Z </a>
+      </h4>
+        
+    </div>
+    <hr>
+</div>
+</section>
+   
+    
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-3"><span>© 2022 TheMealDB
+            Proudly built in the UK</span></div>
+            <div class="col-lg-6">
+                <img src="footerlogos/logo-tcdb.png">
+                <img src="footerlogos/logo-tadb.png">
+                <img src="footerlogos/logo-tsdb.png">
+            </div>
+            <div class="col-lg-3 aboutUs"><p>About Contact Us</p></div>
+        </div>
+        </div>
+</section>
+    
+<script src="index2.js"></script>
+<script src="meal.js"></script>
+</body>
+</html>
